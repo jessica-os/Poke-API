@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/favicon-16x16 (1).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/types.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <header>
+      <h1>POKÉDEX</h1>
+    </header>
+    <main class="container">
+      <section class="pokedex">
+        <img
+          class="img-pokedex"
+          src="./src/imagens/pokedex.png"
+          alt="pokedex"
+        />
+        <img class="pokemon-gif" src="" alt="gif pokemon" />
+        <h3 class="pokemon-data">
+          <span class="loading"><img src="" alt="" /></span>
+          <span class="pokemon-number">-</span>
+          <span class="pokemon-name"></span>
+        </h3>
+        <form class="form">
+          <input
+            type="search"
+            class="input-search"
+            placeholder="Name or Number"
+            required
+          />
+        </form>
+        <div class="buttons">
+          <button class="button btn-prev">Prev &lt;</button>
+          <button class="button btn-next">Next &gt;</button>
+        </div>
+      </section>
+      <section class="cards">
+      <div class="card">
+        <h2 class="pokemon-name-card"></h2>
+        <p class="types"></p>
+        <p class="pokemon-number-card"></p>
+        <img class="pokemon-image" src="" alt="" />
+      </div>
+      <div class="about"></div>
+    </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/screen.js"></script>
+  </body>
+</html>

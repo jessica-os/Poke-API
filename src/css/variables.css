@@ -1,0 +1,36 @@
+:root {
+    --white: #ffffff;
+    --light-gray: #f6f8fc;
+    --solid-gray: #4a535c;
+    --Grey1:rgb(170, 170, 170);
+    --Grey2: rgb(51, 51, 51);
+    --Grey:rgb(58, 68, 77);
+    --Grey3:rgb(136, 136, 136);
+    --Grey4:rgb(68, 68, 68);
+    --Grey5:rgb(34, 34, 34);
+    --red: #ff0000;
+    --orange:orange;
+    --lavander-blue: #6c79db;
+    --royal-blue: #384ce6;
+    --Black: #000000;
+    --Black40: rgba(0, 0, 0, 0.3);
+  
+    --normal: #a6a877;
+    --grass: #77c850;
+    --fire: #ee7f30;
+    --water: #678fee;
+    --electric: #f7cf2e;
+    --ice: #98d5d7;
+    --ground: #dfbf69;
+    --flying: #a98ff0;
+    --poison: #a040a0;
+    --fighting: #bf3029;
+    --psychic: #f65687;
+    --dark: #725847;
+    --rock: #b8a137;
+    --bug: #a8b720;
+    --ghost: #6e5896;
+    --steel: #b9b7cf;
+    --dragon: #6f38f6;
+    --fairy: #f9aec7;
+  }
