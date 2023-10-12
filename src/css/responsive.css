@@ -1,0 +1,39 @@
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   
+  }
+  .container .pokedex .img-pokedex {
+    max-width: 80%;
+  }
+  .container .pokedex .pokemon-gif {
+    height: 20%;
+    left: 35%;
+  }
+  .container .pokedex .pokemon-data {
+    left: 35%;
+  }
+  .form {
+    width: 75%;
+    left: 13%;
+  }
+  .container .pokedex .buttons {
+    bottom: 10%;
+    left: 23%;
+    width: 75%;
+   
+  }
+  .cards {
+    height: 300px;
+    
+  }
+  .about {
+    bottom: 30%;
+   
+    
+   
+  }
+
+}

@@ -40,7 +40,7 @@ header h1 {
   left: 20%;
 }
 .container .pokedex .pokemon-data {
-  font-size: clamp(8px, 2vw, 18px);
+  font-size: 18px;
   position: absolute;
   bottom: 35%;
   left: 20%;
@@ -93,7 +93,8 @@ header h1 {
   font-size: 0.5rem;
 }
 .cards {
-  max-height: 200px;
+  max-height: 250px;
+  
 }
 .card {
   height: 220px;
@@ -144,15 +145,16 @@ header h1 {
 
 .about {
   background-color: var(--light-gray);
-  height: 220px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
   position: relative;
   border-radius: 30px;
   bottom: 35%;
 }
 
 .atributes {
-  padding: 25px 20px;
+  padding: 40px 20px;
+  margin: 0;
 }
 .atribute {
   display: flex;
@@ -173,6 +175,4 @@ header h1 {
   left: 20px;
   width: 80%;
   text-align: center;
-}
-.skill {
 }
