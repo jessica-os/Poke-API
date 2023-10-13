@@ -1,0 +1,84 @@
+.cards {
+    max-height: 250px;
+    
+  }
+  .card {
+    height: 220px;
+    width: 250px;
+    border-radius: 25px;
+    position: relative;
+  }
+  .card .pokemon-name-card {
+    position: absolute;
+    top: 0;
+    left: 26%;
+    color: var(--light-gray);
+    font-size: clamp(15px, 5vw, 25px);
+    margin: 5px 0;
+    text-transform: capitalize;
+  }
+  .card .pokemon-number-card {
+    font-size: clamp(15px, 3vw, 25px);
+    position: absolute;
+    bottom: 40%;
+    right: 0%;
+    padding-right: 10px;
+    color: var(--light-gray);
+  }
+  .card .type {
+    color: var(--white);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+    width: 70%;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+  }
+  .types {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+  }
+  .card .pokemon-image {
+    width: clamp(40%, 5vw, 50%);
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    z-index: 2;
+  }
+  
+  .about {
+    background-color: var(--light-gray);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+    bottom: 35%;
+  }
+  
+  .atributes {
+    padding: 40px 20px;
+    margin: 0;
+  }
+  .atribute {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Grey1);
+    font-size: 15px;
+  }
+  
+  .skills {
+    position: absolute;
+    text-transform: capitalize;
+    color: var(--Grey4);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 3px;
+    left: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  

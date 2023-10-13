@@ -3,7 +3,6 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-   
   }
   .container .pokedex .img-pokedex {
     max-width: 80%;
@@ -23,17 +22,11 @@
     bottom: 10%;
     left: 23%;
     width: 75%;
-   
   }
   .cards {
     height: 300px;
-    
   }
   .about {
     bottom: 30%;
-   
-    
-   
   }
-
 }
