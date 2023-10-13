@@ -14,7 +14,14 @@
   }
   .form {
     width: 65%;
-    left: 15%;
+    left: 12%;
+  }
+  .container .pokedex .input-search {
+    width: 53%;
+    font-size: clamp(5px, 5vw, 9px);
+  }
+  .lupa {
+    left: 77%;
   }
   .container .pokedex .buttons {
     bottom: 10%;

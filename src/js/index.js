@@ -6,6 +6,7 @@ const pokemonGif = document.querySelector(".pokemon-gif");
 
 const form = document.querySelector(".form");
 const input = document.querySelector(".input-search");
+const lupa=document.querySelector(".lupa");
 const btnPrev = document.querySelector(".btn-prev");
 const btnNext = document.querySelector(".btn-next");
 
@@ -28,6 +29,19 @@ form.addEventListener("submit", (e) => {
   }
   
 });
+lupa.addEventListener("click", ()=>{
+  gerarDadosPokemon(input.value.toLowerCase());
+  if (input.value=="") {
+    pokemonName.innerHTML = "";
+    pokemonNumber.innerHTML = "";
+    pokemonGif.style.display = "none";
+    dataCard.style.display = "none";
+    about.style.display = "none";
+  }
+  if (window.innerWidth < 550) {
+    rolarParaOBottom();
+  }
+})
 
 btnPrev.addEventListener("click", () => {
 

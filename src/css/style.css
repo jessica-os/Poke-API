@@ -82,15 +82,27 @@ header h1::after{
 }
 .container .pokedex .input-search {
   margin-top: 10px;
-  width: 60%;
+  width: 50%;
   padding: 4%;
   outline: none;
   border: 2px solid var(--Grey2);
   border-radius: 5px;
   font-weight: 700;
   color: var(--Grey);
-  font-size: clamp(5px, 5vw, 12px);
+  font-size: clamp(5px, 5vw, 10px);
   box-shadow: -3px 4px 0 var(--Grey3), -5px 7px 0 var(--Grey2);
+}
+.lupa{
+  width: 20px;
+  position: absolute;
+  top: 24%;
+  left: 52%;
+  transform: rotate(90deg);
+  background-color: var(--white);
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .container .pokedex .buttons {
   position: absolute;
