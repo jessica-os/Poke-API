@@ -16,12 +16,17 @@ let searchPokemon = 1;
 
 gerarDadosPokemon("1");
 
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   gerarDadosPokemon(input.value.toLowerCase());
+  if (window.innerWidth < 450) {
+    window.scrollTo({ bottom: 0, behavior: "smooth" });
+  }
 });
 
 btnPrev.addEventListener("click", () => {
+
   if (searchPokemon > 1) {
     searchPokemon -= 1;
     gerarDadosPokemon(searchPokemon);
@@ -45,6 +50,7 @@ async function gerarDadosPokemon(pokemon) {
   pokemonNumber.innerHTML = "";
 
   const data = await gerarPokemon(pokemon);
+
   if (data) {
     pokemonGif.style.display = "block";
     pokemonName.innerHTML = data.name;
