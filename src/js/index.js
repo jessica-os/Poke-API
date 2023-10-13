@@ -15,14 +15,18 @@ const about = document.querySelector(".about")
 let searchPokemon = 1;
 
 gerarDadosPokemon("1");
+function rolarParaOBottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
 
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   gerarDadosPokemon(input.value.toLowerCase());
-  if (window.innerWidth < 450) {
-    window.scrollTo({ bottom: 0, behavior: "smooth" });
+  if (window.innerWidth < 550) {
+    rolarParaOBottom();
   }
+  
 });
 
 btnPrev.addEventListener("click", () => {
@@ -31,10 +35,17 @@ btnPrev.addEventListener("click", () => {
     searchPokemon -= 1;
     gerarDadosPokemon(searchPokemon);
   }
+  if (window.innerWidth < 550) {
+    rolarParaOBottom();
+  }
 });
 btnNext.addEventListener("click", () => {
   searchPokemon += 1;
   gerarDadosPokemon(searchPokemon);
+  if (window.innerWidth < 550) {
+    rolarParaOBottom();
+  }
+
 });
 
 async function gerarPokemon(pokemon) {
@@ -50,6 +61,7 @@ async function gerarDadosPokemon(pokemon) {
   pokemonNumber.innerHTML = "";
 
   const data = await gerarPokemon(pokemon);
+
 
   if (data) {
     pokemonGif.style.display = "block";
