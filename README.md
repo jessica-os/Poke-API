@@ -3,10 +3,10 @@
 ### Veja como ficou o projeto em diferentes tamanhos de tela:
 
 ## Móbile:
-  <img src="./src/imagens-readme/poke_mobile.gif" alt="video mobile">
+  <img src="./src/imagens-readme/poke_mobile_.gif" alt="video mobile">
 
  ## Desktop:
-   <img src="./src/imagens-readme/poke_desktop.gif" alt="video desktop">
+   <img src="./src/imagens-readme/poke_desktop__.gif" alt="video desktop">
  
 
 ## Do que se trata esse projeto?
